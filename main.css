@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 550px;
+    background-image: url(Low_Poly.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    display: block;
+    position: absolute;
+}
+.top {
+    text-align: right;
+    height: 30px;
+    background-color: #fbfbfb;
+}
+.icon {
+    width: 20px;
+}
+#logo{
+    width: 75px;
+}
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: #ebebeb;
+}
+.footer-f{
+    height: 30px;
+    background-color: gray;
+}
+.text {
+    width: 200px;
+    height: 20px;
+    margin-top: 90px;
+    background-color: white;
+    border: 0;
+    border-radius: 30px;
+    display: block;
+    position: relative;
+}
+.text form{
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.text form input{
+    height: 15px;
+    border: 0; 
+    position: absolute;
+    padding-left: 20px;
+}
+img{
+    width: 400px;
+}
+.slideshow{
+    width: 100%;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+}
+.paintings img {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+.paintings .content {
+    position: absolute;
+    max-width: 100%;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding: 20px;
+}
+.see_more{
+    width:500px;
+    height: 50px;
+    text-align: center;
+}
+.more{
+    text-align: center;
+}
+.bg-nav{
+    background-color: rgb(255, 255, 255, 0.2);
+}
+.modal-content {
+    max-width: 300px;
+    text-align: left;
+    margin: 0 auto;
+    float: right;
+    margin-top: 30px;
+}
+.inp{
+    height: 25px;
+    width: 250px;
+}
+.dialog{
+    max-width: 600px;
+}
+.networks{
+    display: flex;
+    justify-content: space-around;
+}
+.networks img{
+    width: 200px;
+    height: 30px;
+}
+.net{
+    width: 200px;
+}
+.row{
+    text-align: right;
+}
+.choose{
+    margin-left: 15%;
+}
+h3{
+    text-align: center;
+}
+select{
+    border-style: none;
+}
+#myBtn{
+    border-style: none;
+    background-color: #fbfbfb;
+}
